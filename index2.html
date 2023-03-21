@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body class="main">
+	<div class="top">
+		<div class="toplogo"></div>
+		<div class="btntext1">Тесты и опросники</div>
+		<div class="btntext2">Профессии</div>
+		<div class="btntext3">Вузы</div>
+		<div class="btntext4">Запись к специалисту</div>
+	</div>
+	<div class="line"></div>
+	<div class="text1">Профориентационный тест.</div>
+	<div class="text2">Какую IT профессию выбрать.</div>
+	<div class="text3">Ответьте на следующие вопросы, чтобы определить подходящую профессию</div>
+
+	<div class="container">
+		<form id="quiz">
+			<ol>
+				<li>
+					<h3>Что вам больше нравится?</h3>
+					<div>
+						<input type="radio" name="question1" id="q1a1" value="a">
+						<label for="q1a1">Анализировать данные</label>
+					</div>
+					<div>
+						<input type="radio" name="question1" id="q1a2" value="b">
+						<label for="q1a2">Работать с людьми</label>
+					</div>
+					<div>
+						<input type="radio" name="question1" id="q1a3" value="c">
+						<label for="q1a3">Рисовать и проектировать</label>
+					</div>
+				</li>
+				<li>
+					<h3>Как вы относитесь к рутинной работе?</h3>
+					<div>
+						<input type="radio" name="question2" id="q2a1" value="a">
+						<label for="q2a1">Люблю рутину</label>
+					</div>
+					<div>
+						<input type="radio" name="question2" id="q2a2" value="b">
+						<label for="q2a2">Не люблю рутину</label>
+					</div>
+				</li>
+				<li>
+					<h3>Что вам больше нравится?</h3>
+					<div>
+						<input type="radio" name="question3" id="q3a1" value="a">
+						<label for="q3a1">Найти и исправить ошибки в программном обеспечении</label>
+					</div>
+					<div>
+						<input type="radio" name="question3" id="q3a2" value="b">
+						<label for="q3a2">Создавать новые программы</label>
+					</div>
+				</li>
+				<li>
+					<h3>Как вы относитесь к работе с большим количеством данных?</h3>
+					<div>
+						<input type="radio" name="question4" id="q4a1" value="a">
+						<label for="q4a1">Я хорошо справляюсь с большим объемом данных</label>
+					</div>
+					<div>
+						<input type="radio" name="question4" id="q4a2" value="b">
+						<label for="q4a2">Мне трудно работать с большим объемом данных</label>
+					</div>
+				</li>
+				<li>
+					<h3>Как вы относитесь к работе с аппаратным обеспечением компьютера?</h3>
+						<div>
+							<input type="radio" name="question5" id="q5a1" value="a">
+							<label for="q5a1">Мне нравится работать с аппаратным обеспечением компьютера</label>
+						</div>
+						<div>
+							<input type="radio" name="question5" id="q5a2" value="b">
+							<label for="q5a2">Я не особо хорошо разбираюсь в аппаратном обеспечении компьютера</label>
+						</div>
+				</li>
+				<li>
+					<h3>Как вы относитесь к работе в команде?</h3>
+					<div>
+						<input type="radio" name="question6" id="q6a1" value="a">
+						<label for="q6a1">Мне нравится работать в команде</label>
+					</div>
+					<div>
+						<input type="radio" name="question6" id="q6a2" value="b">
+						<label for="q6a2">Мне нравится работать самостоятельно</label>
+					</div>
+				</li>
+				<li>
+					<h3>Как вы относитесь к решению сложных задач?</h3>
+					<div>
+						<input type="radio" name="question7" id="q7a1" value="a">
+						<label for="q7a1">Я хорошо справляюсь со сложными задачами</label>
+					</div>
+					<div>
+						<input type="radio" name="question7" id="q7a2" value="b">
+						<label for="q7a2">Мне трудно решать сложные задачи</label>
+					</div>
+				</li>
+				<li>
+					<h3>Что вам больше всего нравится в работе?</h3>
+					<div>
+						<input type="radio" name="question8" id="q8a1" value="a">
+						<label for="q8a1">Креативный процесс</label>
+					</div>
+					<div>
+						<input type="radio" name="question8" id="q8a2" value="b">
+						<label for="q8a2">Анализ и исследование</label>
+					</div>
+				</li>
+				<li>
+					<h3>Что вам больше всего нравится в работе?</h3>
+					<div>
+						<input type="radio" name="question9" id="q9a1" value="a">
+						<label for="q9a1">Создание новых продуктов</label>
+					</div>
+					<div>
+						<input type="radio" name="question9" id="q9a2" value="b">
+						<label for="q9a2">Оптимизация и совершенство</label>
+				</li>
+				<li>
+					<h3>Как вы относитесь к работе с большим объемом информации?</h3>
+					<div>
+						<input type="radio" name="question10" id="q10a1" value="a">
+						<label for="q10a1">Я хорошо справляюсь с большим объемом информации</label>
+					</div>
+					<div>
+						<input type="radio" name="question10" id="q10a2" value="b">
+						<label for="q10a2">Мне трудно работать с большим объемом информации</label>
+					</div>
+				</li>
+			</ol>
+			<button type="submit" class="btn">Узнать свою профессию</button>
+		</form>
+		<div id="result" class="results"></div>
+
+	</div>	
+
+	<script>
+		const form = document.querySelector('form');
+		const result = document.querySelector('#result');
+
+		form.addEventListener('submit', function(e) {
+			e.preventDefault();
+			let score = 0;
+			const question1 = this.querySelector('input[name="question1"]:checked').value;
+			const question2 = this.querySelector('input[name="question2"]:checked').value;
+			const question3 = this.querySelector('input[name="question3"]:checked').value;
+			const question4 = this.querySelector('input[name="question4"]:checked').value;
+			const question5 = this.querySelector('input[name="question5"]:checked').value;
+			const question6 = this.querySelector('input[name="question6"]:checked').value;
+			const question7 = this.querySelector('input[name="question7"]:checked').value;
+			const question8 = this.querySelector('input[name="question8"]:checked').value;
+			const question9 = this.querySelector('input[name="question9"]:checked').value;
+			const question10 = this.querySelector('input[name="question10"]:checked').value;
+			if (question1 === 'a') {
+				score += 1;
+			}
+			if (question2 === 'a') {
+				score += 1;
+			}
+			if (question3 === 'a') {
+				score += 1;
+			}
+			if (question4 === 'a') {
+				score += 1;
+			}
+			if (question5 === 'a') {
+				score += 1;
+			}
+			if (question6 === 'a') {
+				score += 1;
+			}
+			if (question7 === 'a') {
+				score += 1;
+			}
+			if (question8 === 'a') {
+				score += 1;
+			}
+			if (question9 === 'a') {
+				score += 1;
+			}
+			if (question10 === 'a') {
+				score += 1;
+			}
+			if (score >= 8) {
+				result.innerHTML = '<p>Вы подходите для профессии программиста</p>';
+			} else if (score >= 6) {
+				result.innerHTML = '<p>Вы подходите для профессии специалиста по информационной безопасности</p>';
+			} else if (score >= 4) {
+				result.innerHTML = '<p>Вы подходите для профессии системного администратора</p>';
+			} else if (score >= 2) {
+				result.innerHTML = '<p>Вы подходите для профессии дизайнера</p>';
+			} else {
+				result.innerHTML = '<p>Вы подходите для профессии интернет-маркетолога</p>';
+			}
+			});
+	</script>
+
+
+</body>
+</html>
